@@ -6,7 +6,7 @@ package main
 import (
 	"os"
 
-	"github.com/fido-device-onboard/go-fdo-client/cmd"
+	"github.com/kgiusti/go-fdo-client/cmd"
 )
 
 func main() {

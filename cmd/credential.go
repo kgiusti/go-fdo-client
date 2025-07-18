@@ -17,11 +17,11 @@ import (
 	"path/filepath"
 
 	"github.com/fido-device-onboard/go-fdo"
-	tpmnv "github.com/fido-device-onboard/go-fdo-client/internal/tpm_utils"
 	"github.com/fido-device-onboard/go-fdo/blob"
 	"github.com/fido-device-onboard/go-fdo/cbor"
 	"github.com/fido-device-onboard/go-fdo/tpm"
 	"github.com/google/go-tpm/tpm2"
+	tpmnv "github.com/kgiusti/go-fdo-client/internal/tpm_utils"
 )
 
 const FDO_CRED_NV_IDX = 0x01D10001

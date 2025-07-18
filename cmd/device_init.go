@@ -26,13 +26,13 @@ import (
 	"strings"
 
 	"github.com/fido-device-onboard/go-fdo"
-	"github.com/fido-device-onboard/go-fdo-client/internal/tls"
-	"github.com/fido-device-onboard/go-fdo-client/internal/tpm_utils"
 	"github.com/fido-device-onboard/go-fdo/blob"
 	"github.com/fido-device-onboard/go-fdo/cbor"
 	"github.com/fido-device-onboard/go-fdo/custom"
 	"github.com/fido-device-onboard/go-fdo/protocol"
 	"github.com/fido-device-onboard/go-fdo/tpm"
+	"github.com/kgiusti/go-fdo-client/internal/tls"
+	"github.com/kgiusti/go-fdo-client/internal/tpm_utils"
 	"github.com/spf13/cobra"
 )
 

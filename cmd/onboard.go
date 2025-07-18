@@ -18,13 +18,13 @@ import (
 	"time"
 
 	"github.com/fido-device-onboard/go-fdo"
-	"github.com/fido-device-onboard/go-fdo-client/internal/tls"
-	"github.com/fido-device-onboard/go-fdo-client/internal/tpm_utils"
 	"github.com/fido-device-onboard/go-fdo/cose"
 	"github.com/fido-device-onboard/go-fdo/fsim"
 	"github.com/fido-device-onboard/go-fdo/kex"
 	"github.com/fido-device-onboard/go-fdo/protocol"
 	"github.com/fido-device-onboard/go-fdo/serviceinfo"
+	"github.com/kgiusti/go-fdo-client/internal/tls"
+	"github.com/kgiusti/go-fdo-client/internal/tpm_utils"
 	"github.com/spf13/cobra"
 )
 

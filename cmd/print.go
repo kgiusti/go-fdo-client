@@ -8,7 +8,7 @@ import (
 	"log/slog"
 	"path/filepath"
 
-	"github.com/fido-device-onboard/go-fdo-client/internal/tpm_utils"
+	"github.com/kgiusti/go-fdo-client/internal/tpm_utils"
 	"github.com/spf13/cobra"
 )
 

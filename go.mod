@@ -1,4 +1,4 @@
-module github.com/fido-device-onboard/go-fdo-client
+module github.com/kgiusti/go-fdo-client
 
 go 1.23.0
 
